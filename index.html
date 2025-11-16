@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="UTF-8">
+        <title>Associació Gasvar</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+        <style>
+            body {
+                font-family: 'Nunito', sans-serif;
+            }
+            .logo {
+                height: 70px;
+                width: auto;
+            }
+        </style>
+    </head>
+    <body class="bg-white text-dark">
+
+        <!-- Secció principal -->
+        <section class="text-center py-3 mb-5" style="background-color: #f8c8dc;">
+            <div class="container">
+                <img src="Recursos/logoV2.png" alt="Logo Gasvar" class="logo me-2" style="width: 200px; height: auto;">
+                <h1 class="fw-bold" style="color: #19559d;">Associació Gasvar protectora d'animals</h1>
+                <h3 class="mb-3">Qui som i què fem?</h3>
+                <p>A Gasvar rescatem, cuidem i busquem una llar responsable per a gats abandonats a Montornès del Vallès.  
+                    Treballem gràcies a voluntaris i donacions.</p>
+            </div>
+        </section>
+
+        <!-- Carrusel -->
+        <div id="carouselExample" class="carousel slide mx-auto" data-bs-ride="carousel" style="max-width: 800px; border-radius: 12px; overflow: hidden;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Recursos/cat1.jpg" class="d-block w-100" style="height:400px; object-fit:cover;" alt="Gat 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="Recursos/cat2.jpg" class="d-block w-100" style="height:400px; object-fit:cover;" alt="Gat 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="Recursos/cat3.jpg" class="d-block w-100" style="height:400px; object-fit:cover;" alt="Gat 3">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <!-- Com ajudar -->
+        <section class="text-center py-5 mt-5" style="background-color: #f8c8dc;">
+            <div class="container">
+                <h2 class="mb-4" style="color: #19559d;">Com pots ajudar?</h2>
+                <p class="mb-5">El teu suport és fonamental per millorar la vida dels nostres gats.  
+                    Pots col·laborar de diferents maneres:</p>
+
+                <div class="row g-4 justify-content-center">
+
+                    <!-- Dona -->
+                    <div class="col-md-3">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">
+                                    <i class="fa-solid fa-hand-holding-heart me-2"></i>Dona
+                                </h5>
+                                <p class="card-text">Amb la teva donació financem menjar, medicació i esterilitzacions.</p>
+                                <a href="https://www.paypal.com/donate" target="_blank" class="btn btn-primary">
+                                    <i class="fa-brands fa-paypal me-2"></i>Donar amb PayPal
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Adopta -->
+                    <div class="col-md-3">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">
+                                    <i class="fa-solid fa-paw me-2"></i>Adopta
+                                </h5>
+                                <p class="card-text">Dóna’ls una llar plena d’afecte i canvia la seva vida per sempre.</p>
+                                <a href="contacto.html" class="btn btn-success">
+                                    <i class="fa-solid fa-house"></i>
+                                    <i class="fa-solid fa-house-chimney-heart me-2"></i>Adoptar
+                                    
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Voluntariat -->
+                    <div class="col-md-3">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">
+                                    <i class="fa-solid fa-people-group me-2"></i>Voluntariat
+                                </h5>
+                                <p class="card-text">Col·labora en la cura, difusió i activitats de l’associació.</p>
+                                <a href="contacto.html" class="btn btn-warning">
+                                    <i class="fa-solid fa-handshake-angle me-2"></i>Vull ajudar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Peu de pàgina -->
+        <footer class="text-center py-3 bg-dark text-white">
+            © 2025 Associació Gasvar – Tots els drets reservats
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
+
